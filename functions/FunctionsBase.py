@@ -24,5 +24,3 @@ class FunctionsBase:
 
 		if not isinstance(text, str):
 			raise TypeError("Input text must be a string")
-
-		raise NotImplementedError("Subclasses should implement this method")
