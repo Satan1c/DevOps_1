@@ -12,13 +12,9 @@ class GeneratorsBase:
 		if not isinstance(word, str):
 			raise TypeError("Input word must be a string")
 
-		raise NotImplementedError("Subclasses should implement this method")
-
 	def fizzbuzz(self, amount: int = 100) -> List[str]:
 		if not isinstance(amount, int):
 			raise TypeError("Amount must be an integer")
 
 		if amount == 0:
 			raise ValueError("Amount must not be zero")
-
-		raise NotImplementedError("Subclasses should implement this method")
